@@ -10,8 +10,5 @@
 @class MJBox;
 
 @interface MJBook : NSObject
-@property (copy, nonatomic) NSString *name;
-@property (copy, nonatomic) NSString *publisher;
-@property (strong, nonatomic) NSDate *publishedTime;
-@property (strong, nonatomic) MJBox *box;
+
 @end
